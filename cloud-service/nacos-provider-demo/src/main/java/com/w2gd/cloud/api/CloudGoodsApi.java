@@ -18,4 +18,9 @@ public class CloudGoodsApi {
         // 返回信息个i调用端
         return "this is goods service from port:" + applicationServerPort;
     }
+
+    // @GetMapping("/courses")
+    // public ResponseResult courses(){
+    //
+    // }
 }
