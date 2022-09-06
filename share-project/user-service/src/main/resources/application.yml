@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    timezone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://api.w2gd.top:8848
+      username: nacos
+      password: nacos
+  datasource:
+    url: jdbc:mysql://124.221.138.97:3306/share?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    hikari:
+      username: root
+      password: mysql@1212
+      driver-class-name: com.mysql.cj.jdbc.Driver
