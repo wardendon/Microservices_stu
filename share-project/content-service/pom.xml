@@ -76,6 +76,7 @@
             <artifactId>fastjson</artifactId>
             <version>2.0.12</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
@@ -87,6 +88,16 @@
                     <artifactId>spring-cloud-netflix-ribbon</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <!--        添加Nacos Config配置-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!--    读取bootstrap文件-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
     </dependencies>
