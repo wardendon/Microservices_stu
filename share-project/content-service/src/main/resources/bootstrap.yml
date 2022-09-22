@@ -27,8 +27,26 @@ spring:
             group: EXT_GROUP
             refresh: true
 
-    sentinel:
+    sentinel: # 配置sentinel
       transport:
         port: 8719  # sentinel api端口，默认8719
-        dashboard: localhost:8080
+        dashboard: localhost:8080 # 指定sentinel dashboard web地址
       web-context-unify: false
+      datasource:
+        my-flow:
+          nacos:
+            server-addr: 124.221.138.97:8848
+            namespace: dev
+            group-id: SENTINEL_GROUP
+            data-id: ${spring.application.name}-flow-rules
+            rule-type: flow
+  sleuth:
+    sampler: # 采样旅大概率，100%采样
+      probability: 1.0 # 每秒采样数字最高为1000
+      rate: 1000
+  zipkin:
+    sender:
+      type: rabbit
+    rabbitmq:
+      addresses: localhost:5672
+      queue: zipkin

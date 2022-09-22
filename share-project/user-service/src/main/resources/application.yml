@@ -1,6 +1,7 @@
 server:
   port: 8081
 
+
 # 以下配置依靠nacos配置管理来控制
 #spring:
 #  application:

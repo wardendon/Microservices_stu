@@ -10,6 +10,7 @@
     <modules>
         <module>user-service</module>
         <module>content-service</module>
+        <module>geteway</module>
     </modules>
 
     <packaging>pom</packaging>

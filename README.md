@@ -7,3 +7,11 @@
 [**什么是 RPC 框架**](https://zhuanlan.zhihu.com/p/139688497)
 
 [Nacos Group](https://github.com/nacos-group)
+
+
+
+
+
+## [网关Gateway](https://github.com/spring-cloud/spring-cloud-gateway/blob/main/docs/src/main/asciidoc/spring-cloud-gateway.adoc)
+
+[新建网关服务，整合SpringCloud Gateway，将其注册到Nacos服务器，配置路由转发规则，实现对用户中心和内容中心API的访问](share-project/geteway)
