@@ -1,0 +1,16 @@
+server:
+  port: 8152
+spring:
+  application:
+    name: cloud-cart-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 124.221.138.97:8848
+      password: nacos
+      username: nacos
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_distribution_cart_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
