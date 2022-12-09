@@ -1,4 +1,4 @@
-package com.qzk.goods;
+package com.wd.goods;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

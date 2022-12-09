@@ -1,7 +1,7 @@
-package com.qzk.order;
+package com.wd.order;
 
-import com.qzk.order.openfeign.GoodsDemoService;
-import com.qzk.order.openfeign.ShopCartDemoService;
+import com.wd.order.openfeign.GoodsDemoService;
+import com.wd.order.openfeign.ShopCartDemoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;

@@ -1,4 +1,4 @@
-package com.qzk.order.openfeign;
+package com.wd.order.openfeign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.DeleteMapping;

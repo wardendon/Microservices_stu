@@ -1,7 +1,7 @@
-package com.qzk.order.service;
+package com.wd.order.service;
 
-import com.qzk.order.openfeign.GoodsDemoService;
-import com.qzk.order.openfeign.ShopCartDemoService;
+import com.wd.order.openfeign.GoodsDemoService;
+import com.wd.order.openfeign.ShopCartDemoService;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

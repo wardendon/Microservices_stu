@@ -1,4 +1,4 @@
-package com.qzk.goods.controller;
+package com.wd.goods.controller;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.PathVariable;

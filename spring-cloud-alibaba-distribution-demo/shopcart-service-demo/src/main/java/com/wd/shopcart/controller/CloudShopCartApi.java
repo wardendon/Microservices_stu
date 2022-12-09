@@ -1,4 +1,4 @@
-package com.qzk.shopcart.controller;
+package com.wd.shopcart.controller;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.*;

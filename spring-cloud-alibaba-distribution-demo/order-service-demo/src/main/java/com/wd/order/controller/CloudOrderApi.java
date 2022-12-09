@@ -1,6 +1,6 @@
-package com.qzk.order.controller;
+package com.wd.order.controller;
 
-import com.qzk.order.service.OrderService;
+import com.wd.order.service.OrderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
